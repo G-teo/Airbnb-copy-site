@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charaset="utf-8">
+    <title>"Task5"</title>
+    <meta name="description" content="Setup">
+    <link rel="stylesheet" href="styles.css">
+    <!-- レスポンシブ対応 -->
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- formrun -->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+    <!--  -->
+      <header id="header">
+        <div id="header-logo"><a href="#"><img src="svg-logo.svg"></a></div>
+        <nav id="header-nav">
+          <ul id="header-ul">
+            <a href="index.html"><li class="header-list">概要</li></a>
+            <a href="setup.html"><li class="header-list">準備</li></a>
+            <a class="current" href="#"><li class="header-list">安全</li></a>
+            <a href="moneyplan.html"><li class="header-list">マネープラン</li></a>
+          </ul>
+        </nav>
+        <div id="header-start-btn">
+          <a href="#">はじめる</a>
+        </div>
+      </header>
+
+      <section id="safety-start">
+        <div id="safety-start-top">
+          <div class="safety-start-title"><h1>Airbnbはホストを守ります</h1></div>
+          <div class="safety-start-para">
+            Airbnbはホストとゲストのみなさま、宿泊施設の安全を万全の体制でお守りします。
+          </div>
+          <div id="safety-start-btn"><a href="#">はじめる</a></div>
+        </div>
+        <section class="safety-start-image">
+          <img src="safety-start-image.jpg">
+        </section>
+      </section>
+
+      <main id="main" class="safety-main">
+        <section class="main-section safety-main-section">
+          <div class="main-section-title">
+            <h1>理想のゲストをマッチング</h1>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-lg-4">
+              <h2>ホストとゲストの双方による公正なレビュー</h2>
+              <p>
+                宿泊が終わると、ゲストとホストは実体験をもとにレビューを交換し、これがAirbnbにおける信用と評価の裏付けになります。
+              </p>
+              <p>
+                予約を受け入れる前には過去のホストからのレビューを読んで、ゲストの評判をチェックできます。
+              </p>
+            </div>
+
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-lg-4">
+              <h2>ゲストとの連絡は簡単</h2>
+              <p>
+                ゲストの到着前に質問をしたり、期待事項を伝えたいときは、Airbnbの安全なメッセージ機能を使ってゲストのことを把握することができます。
+              </p>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="contents row"> -->
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-lg-4">
+              <h2>予約の要件</h2>
+              <p>
+                本人確認が気になる場合、予約前に身分証明書をAirbnbに提示するよう全ゲストに求めることができます。予約内容は事前に確認できるほか、予約を受け付けるゲストの要件も設定できます。条件の合わない予約に振り回されるご心配はありません。
+              </p>
+              <p>
+                さらにAirbnb側でも全予約のリスク評価を行い、疑わしい予約は自動的にキャンセルしています。
+              </p>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-lg-4">
+              <h2>あなたのお部屋、ルールを決めるのももちろんあなた</h2>
+              <p>
+                室内禁煙、大人数で飲み騒ぐイベントの禁止など、滞在中に守ってもらいたい決まりごとは「ハウスルール」にまとめて記載し、予約前にゲストに同意を求めることができます。
+              </p>
+              <p>
+                ゲストにハウスルールのいずれかひとつを破られた場合、自分から予約をキャンセルしてもペナルティはかかりません。
+              </p>
+            </div>
+          </div>
+
+          <div class="contents row">
+            <div class="content col-md-12 col-lg-12 col-xl-12">
+              <table>
+                <tr>
+                  <th class="table-left table-top">手数料を他社と比較すると？</th>
+                  <th class="airbnb-top">Airbnb</th>
+                  <th>Homeaway</th>
+                  <th>Booking.com</th>
+                </tr>
+                <tr>
+                  <td class="table-left">ホストサービス料（予約あたり）</td>
+                  <td class="airbnb">3-5%</td>
+                  <td>5%</td>
+                  <td>15-20%</td>
+                </tr>
+                <tr>
+                  <td class="table-left">掲載は常時無料</td>
+                  <td class="airbnb">
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">クレジットカード決済手数料なし</td>
+                  <td class="airbnb">
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="0" y1="0" x2="15" y2="15" stroke="#008489" stroke-width="1"/>
+                      <line x1="15" y1="0" x2="0" y2="15" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">最高¥100,000,000までの財物損害補償が自動付帯</td>
+                  <td class="airbnb">
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="0" y1="0" x2="15" y2="15" stroke="#008489" stroke-width="1"/>
+                      <line x1="15" y1="0" x2="0" y2="15" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="0" y1="0" x2="15" y2="15" stroke="#008489" stroke-width="1"/>
+                      <line x1="15" y1="0" x2="0" y2="15" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                </tr>
+              </table>
+              最終更新日：2018年6月
+            </div>
+          </div>
+          <div class="contents row">
+            <div class="image col-md-6 col-lg-6 col-xl-6">
+              <img src="safety-main-section1-image.jpg">
+            </div>
+            <div class="content col-md-6 col-lg-6 col-xl-6">
+              <p class="strong">
+                人はみな善である。そう教えられた気がします。人を信頼できるようになりました。
+              </p>
+              <p>
+                ボMilaidaさんはプエルトリコ在住。ホストになって収入の柱が増えました。
+              </p>
+              <div class="a-frame">
+                <a href="#">ホスト実践例をチェック</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main-section safety-main-section">
+          <div class="main-section-title"><h1>安心してホスティングを</h1></div>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-md-4">
+              <h2>財物破損は最高¥100,000,000まで補償</h2>
+              <p>
+                万一の財物破損があった場合には、「日本ホスト保険」で、いつどの予約でも、最高¥100,000,000までの補償を提供します。（日本国外のリスティングの場合、「ホスト保証」を参照してください）
+              </p>
+              <p>
+                補償金請求は、問題解決センターと通じて直接ご提出いただけます。
+              </p>
+              <a href="#">
+                ホスト保証の詳細はこちら
+              </a>
+            </div>
+
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-md-4">
+              <h2>事故に備えた保険</h2>
+              <p>
+                「日本ホスト保険」で最高¥100,000,000までの賠償請求を対象とした補償を提供しています。この保険は、滞在中にリスティングや敷地内で発生した損害に対して賠償請求を受けた場合、最高¥100,000,000まで補償するものです。（日本国外のリスティングの場合、「ホスト補償保険」を参照してください）
+              </p>
+              <a href="#">ホスト補償保険の詳細はこちら</a>
+            </div>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-12 col-lg-8 col-xl-4 mx-auto mb-md-4">
+              <svg viewBox="0 0 40 40" width="40" height="40">
+                <line x1="5" y1="20" x2="15" y2="30" stroke="#008489" stroke-width="1"/>
+                <line x1="15" y1="30" x2="30" y2="10" stroke="#008489" stroke-width="1"/>
+                <circle cx="20" cy="20" r="20" stroke="#008489" fill-opacity="0" stroke-width="1"/>
+              </svg>
+              保険料は一切なし  
+            </div>
+            <div class="content col-md-12 col-lg-8 col-xl-4 mx-auto mb-md-4">
+              <svg viewBox="0 0 40 40" width="40" height="40">
+                <line x1="5" y1="20" x2="15" y2="30" stroke="#008489" stroke-width="1"/>
+                <line x1="15" y1="30" x2="30" y2="10" stroke="#008489" stroke-width="1"/>
+                <circle cx="20" cy="20" r="20" stroke="#008489" fill-opacity="0" stroke-width="1"/>
+              </svg>
+              全予約に自動付帯
+            </div>
+            <div class="content col-md-12 col-lg-8 col-xl-4 mx-auto mb-md-4">
+              <svg viewBox="0 0 40 40" width="40" height="40">
+                <line x1="5" y1="20" x2="15" y2="30" stroke="#008489" stroke-width="1"/>
+                <line x1="15" y1="30" x2="30" y2="10" stroke="#008489" stroke-width="1"/>
+                <circle cx="20" cy="20" r="20" stroke="#008489" fill-opacity="0" stroke-width="1"/>
+              </svg>
+              Airbnbで直接補償申請
+            </div>
+          </div>        
+        </section>
+        <section class="main-section safety-main-section">
+          <div class="main-section-title">
+            <h1>24時間365日対応します</h1>
+          </div>
+          <div class="contents row">
+            <div class="image col-md-12 col-lg-12 col-xl-12">
+              <img src="safety-main-section3-image.jpg">
+            </div>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-md-4">
+              <h2>Airbnbのチームがお手伝いできること</h2>
+              <p>
+                Airbnbのグローバルチームは、電話、メール、ライブチャットによる皆様とゲストのサポートを、24時間365日体制でお届けします。
+              </p>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto">
+              <ul>
+                <li>
+                  <svg viewBox="0 0 15 15" width="15" height="15">
+                    <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                    <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                  </svg>
+                  再予約のお手伝い</li>
+                <li>
+                  <svg viewBox="0 0 15 15" width="15" height="15">
+                    <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                    <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                  </svg>
+                  返金</li>
+                <li>
+                  <svg viewBox="0 0 15 15" width="15" height="15">
+                    <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                    <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                  </svg>
+                  払い戻し</li>
+                <li>
+                  <svg viewBox="0 0 15 15" width="15" height="15">
+                    <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                    <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                  </svg>
+                  ホスト保証と保険金請求</li>
+                <li>
+                  <svg viewBox="0 0 15 15" width="15" height="15">
+                    <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                    <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                  </svg>
+                  調停</li>
+              </ul>
+            </div>
+            <div class="contents row contents-line">
+              <div class="content col-md-8 col-lg-10 col-xl-12 mx-auto">
+                <div class="center">
+                  <p class="strong">
+                    2017年、Airbnbは4900万件の宿泊を実行しました。建物・家財の著しい破損に至る事例は25,000件に1件で、業界内でも低水準に留まっています。
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </section>
+        <section class="main-section question safety-main-section">
+          <div class="main-section-title">
+            <h1>みなさまの質問にお答えします</h1>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-md-4">
+              <ul>
+                <li>予約前にゲストに求められる要件は？</li>
+                <li>レビューの流れは？</li>
+                <li>ゲストが家の中の物を壊した場合、どうすればよいですか？</li>
+              </ul>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto mb-md-4">
+              <ul>
+                <li>ゲストに違和感を感じたら、どう対処？</li>
+                <li>「ホスト保証」と「ホスト補償保険」はどう違う？</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div id="end" class="safety-end">
+        <div id="end-box">
+          <div id="end-title"><h1>ホスティングをはじめる準備はいいですか?</h1></div>
+          <div id="end-para"><a href="#">リスティングを作成</a></div>
+        </div>
+      </div>
+
+
+
+      <footer id="footer">
+
+        <section id="footer-top">
+          <ul class="footer-ul1" id="footer-ul">
+            <li class="footer-list"><h1>Airbnb</h1></li>
+            <li class="footer-list">採用情報</li>
+            <li class="footer-list">ニュース</li>
+            <li class="footer-list">ポリシー</li>
+            <li class="footer-list">ダイバーシティ&ビロンギング</li>
+            <li class="footer-list">アクセシビリティ対応</li>
+            <li class="footer-list">企業情報</li>
+          </ul>
+
+          <ul class="footer-ul2" id="footer-ul">
+            <li class="footer-list"><h1>スタッフのおすすめ</h1></li>
+            <li class="footer-list">信頼&安全</li>
+            <li class="footer-list">お友達紹介クーポン</li>
+            <li class="footer-list">Airbnb Citizen</li>
+            <li class="footer-list">出張</li>
+            <li class="footer-list">アクティビティ</li>
+            <li class="footer-list">Airbnbmag</li>
+            <li class="footer-list new">Airbnbアソシエイト</li>
+          </ul>
+
+          <ul class="footer-ul3" id="footer-ul">
+            <li class="footer-list"><h1>ホスティング</h1></li>
+            <li class="footer-list">おもてなしの心</li>
+            <li class="footer-list">ホストの責任</li>
+            <li class="footer-list">コミュニティセンター</li>
+            <li class="footer-list">体験を掲載</li>
+            <li class="footer-list">オープンホーム</li>
+            <li class="footer-list new">リソースセンター</li>
+          </ul>
+
+          <ul class="footer-ul3" id="footer-ul">
+            <li class="footer-list"><h1>サポート</h1></li>
+            <li class="footer-list">ヘルプ</li>
+            <li class="footer-list new">エリアサポート</li>
+          </ul>
+
+        </section>
+
+        <section id="footer-bottom">
+          <div id="footer-img">
+            <img src="svg-logo.svg">
+          </div>
+
+          <div id="footer-tag">
+            <a>Airbnb Global Services Limited<br>
+              観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+            <p class="copyright">© 2020 Airbnb, Inc. All rights reserved.利用規約 · プライバシー · サイトマップ</p>
+          </div>
+
+          <div id="footer-logo">
+            <span class="fab fa-facebook"></span>
+            <span class="fab fa-twitter"></span>
+            <span class="fab fa-instagram"></span>
+          </div>
+      </section>
+      </footer>
+
+    </div><!--containerの終わり-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

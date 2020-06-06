@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charaset="utf-8">
+    <title>"Task5"</title>
+    <meta name="description" content="Setup">
+    <link rel="stylesheet" href="styles.css">
+    <!-- レスポンシブ対応 -->
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- formrun -->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+    <!--  -->
+      <header id="header">
+        <div id="header-logo"><a href="#"><img src="svg-logo.svg"></a></div>
+        <nav id="header-nav">
+          <ul id="header-ul">
+            <a href="index.html"><li class="header-list">概要</li></a>
+            <a href="setup.html"><li class="header-list">準備</li></a>
+            <a href="safety.html"><li class="header-list">安全</li></a>
+            <a class="current" href="#"><li class="header-list">マネープラン</li></a>
+          </ul>
+        </nav>
+        <div id="header-start-btn">
+          <a href="#">はじめる</a>
+        </div>
+      </header>
+
+      <section id="moneyplan-start">
+        <div id="moneyplan-start-top">
+          <div class="moneyplan-start-title"><h1>Airbnbなら収入を最大化できる</h1></div>
+          <div class="moneyplan-start-para">
+            シームレスな支払いシステム、お得な手数料、自由な料金設定。Airbnbにはそのすべてがそろっています。
+          </div>
+        </div>
+        <div id="moneyplan-start-bottom">
+          <section id="moneyplan-start-box">
+            <div id="start-box-title"><h1>宿泊施設の内容を記入</h1></div>
+            <div class="form">
+              <div class="form-left">
+                <input id="location" type="text" name="location" placeholder="ロケーション">
+                <div id="moneyplan-form-select">
+                  <select name="usage">
+                    <option value="">まるまる貸し切り</option>
+                    <option value="">個室</option>
+                    <option value="">シェアルーム</option>
+                  </select>
+                  <select name="people-number">
+                    <option value="">ゲスト1人</option>
+                    <option value="">ゲスト2人</option>
+                    <option value="">ゲスト3人</option>
+                    <option value="" selected>ゲスト4人</option>
+                    <option value="">ゲスト5人</option>
+                    <option value="">ゲスト6人</option>
+                    <option value="">ゲスト7人</option>
+                    <option value="">ゲスト8人</option>
+                    <option value="">ゲスト9人</option>
+                    <option value="">ゲスト10人</option>
+                    <option value="">ゲスト11人</option>
+                    <option value="">ゲスト12人</option>
+                    <option value="">ゲスト13人</option>
+                    <option value="">ゲスト14人</option>
+                    <option value="">ゲスト15人</option>
+                    <option value="">ゲスト16人</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-right">
+                <div id="moneyplan-start-btn"><a href="#">はじめる</a></div>
+              </div>
+          </section>
+        </div>
+      </section>
+
+      <main id="main" class="moneyplan-main">
+        <section class="main-section moneyplan-main-section">
+          <div class="main-section-title">
+            <h1>簡単でスムーズなお支払い</h1>
+          </div>
+          <p class="moneyplan-main-para">
+            お住まいの地域に応じ、料金はPayPal、直接振込など、さまざまな方法で受け取ることができます。
+          </p>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-4 mx-auto">
+              <img class="moneyplan-list-img" src="number1.jpg">
+              <h2>無料でお部屋を掲載</h2> 
+              <p>世界数百万人の旅行者にお家や宿泊施設をPRできます。登録料や年会費は一切かかりません。</p>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-4 mx-auto">
+              <img class="moneyplan-list-img" src="number2.jpg">
+              <h2>予約受付スタート</h2>
+              <p>
+                Airbnbは料金前払いですので、代金は宿泊のたびに毎回期日通り確実にお手元に届きます。お金のことには一切ノータッチで交流に専念できます。
+              </p>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-4 mx-auto">
+              <img class="moneyplan-list-img" src="number3.jpg">
+              <h2>入金はチェックイン後</h2>
+              <p>受取金は通常、チェックイン予定時刻の約24時間後にAirbnbから送金処理されます。このようにすることで、入室がスムーズに行われたことを確認するためのワンクッションを設けています。
+              </p>
+            </div>
+          </div>  
+          <div class="contents row">
+            <div class="content col-md-12 col-lg-12 col-xl-12">
+              <table>
+                <tr>
+                  <th class="table-left table-top">手数料を他社と比較すると？</th>
+                  <th class="airbnb-top">Airbnb</th>
+                  <th>Homeaway</th>
+                  <th>Booking.com</th>
+                </tr>
+                <tr>
+                  <td class="table-left">ホストサービス料（予約あたり）</td>
+                  <td class="airbnb">3-5%</td>
+                  <td>5%</td>
+                  <td>15-20%</td>
+                </tr>
+                <tr>
+                  <td class="table-left">掲載は常時無料</td>
+                  <td class="airbnb">
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">クレジットカード決済手数料なし</td>
+                  <td class="airbnb">
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="0" y1="0" x2="15" y2="15" stroke="#008489" stroke-width="1"/>
+                      <line x1="15" y1="0" x2="0" y2="15" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-left">最高¥100,000,000までの財物損害補償が自動付帯</td>
+                  <td class="airbnb">
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="5" y1="15" x2="15" y2="0" stroke="#008489" stroke-width="1"/>
+                      <line x1="5" y1="15" x2="0" y2="8" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="0" y1="0" x2="15" y2="15" stroke="#008489" stroke-width="1"/>
+                      <line x1="15" y1="0" x2="0" y2="15" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                  <td>
+                    <svg viewBox="0 0 15 15" width="15" height="15">
+                      <line x1="0" y1="0" x2="15" y2="15" stroke="#008489" stroke-width="1"/>
+                      <line x1="15" y1="0" x2="0" y2="15" stroke="#008489" stroke-width="1"/>
+                    </svg>
+                  </td>
+                </tr>
+              </table>
+              最終更新日：2018年6月
+            </div>
+          </div>
+          <div class="contents row">
+            <div class="image col-md-6 col-lg-6 col-xl-6">
+              <img src="setup-main-section1-image.jpg">
+            </div>
+            <div class="content col-md-6 col-lg-6 col-xl-6">
+              <p class="strong">
+                老後資金と子ども2人の学費をちょっとずつ貯めています。
+              </p>
+              <p>
+                ボストンのJBさんとRamonaさんはホストで老後資金を貯めています。
+              </p>
+              <div class="a-frame">
+                <a href="#">ホスト実践例をチェック</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main-section moneyplan-main-section">
+          <div class="main-section-title">
+            <h1>毎晩あなたにぴったりな料金</h1>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-6 col-lg-6 col-xl-6">
+              <h2>
+                頼れる料金設定のヒントが満載
+              </h2>
+              <p>
+                料金はいつでも自由に設定できます。
+              </p>
+              <p>
+                猫の手も借りたいときには、需要の動きに合わせて自動調整するツールで、毎晩理想の料金をキープできます。
+              </p>
+            </div>
+            <div class="image col-md-6 col-lg-6 col-xl-6">
+              <img src="moneyplan-main-section2-image.jpg">
+            </div>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto">
+              <h2>
+                付加サービスは有料で設定できる
+              </h2>
+              <p>
+                追加人数分の料金、清掃料金などの追加チャージは、前払いで請求できます。
+              </p>
+              <p>
+                さらに滞在中に自転車や用具のレンタル、街案内などの付加サービスを提供する場合は、アプリから後払い請求も可能です。
+              </p>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto">
+              <h2>
+                自分のニーズに合わせてカスタマイズ
+              </h2>
+              <p>
+                繁忙期や閑散期、週末など、特別プライスにしたい期間限定でカスタム料金を設定することができます。
+              </p>
+              <p>
+                長期滞在を希望のゲストには、週割や月割を提供することもできます。
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="main-section question moneyplan-main-section">
+          <div class="main-section-title">
+            <h1>みなさまの質問にお答えします</h1>
+          </div>
+          <div class="contents row">
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto">
+              <ul>
+                <li>お部屋を掲載するには、いくらかかるの？</li>
+                <li>受取金の金額はどこでわかるの？</li>
+                <li>Airbnbはお部屋の料金の設定をサポートしてくれる？</li>
+              </ul>
+            </div>
+            <div class="content col-md-8 col-lg-8 col-xl-6 mx-auto">
+              <ul>
+                <li>受取金はいつもらえるの？</li>
+                <li>リスティングの料金はどうやって決めたらいいの？</li>
+                <li>ホストの税金はどうなりますか?</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div id="end" class="moneyplan-end">
+        <div id="end-box">
+          <div id="end-title"><h1>収入を増やしたい？</h1></div>
+          <div id="end-para"><a href="#">リスティングを作成</a></div>
+        </div>
+      </div>
+
+
+
+      <footer id="footer">
+
+        <section id="footer-top">
+          <ul class="footer-ul1" id="footer-ul">
+            <li class="footer-list"><h1>Airbnb</h1></li>
+            <li class="footer-list">採用情報</li>
+            <li class="footer-list">ニュース</li>
+            <li class="footer-list">ポリシー</li>
+            <li class="footer-list">ダイバーシティ&ビロンギング</li>
+            <li class="footer-list">アクセシビリティ対応</li>
+            <li class="footer-list">企業情報</li>
+          </ul>
+
+          <ul class="footer-ul2" id="footer-ul">
+            <li class="footer-list"><h1>スタッフのおすすめ</h1></li>
+            <li class="footer-list">信頼&安全</li>
+            <li class="footer-list">お友達紹介クーポン</li>
+            <li class="footer-list">Airbnb Citizen</li>
+            <li class="footer-list">出張</li>
+            <li class="footer-list">アクティビティ</li>
+            <li class="footer-list">Airbnbmag</li>
+            <li class="footer-list new">Airbnbアソシエイト</li>
+          </ul>
+
+          <ul class="footer-ul3" id="footer-ul">
+            <li class="footer-list"><h1>ホスティング</h1></li>
+            <li class="footer-list">おもてなしの心</li>
+            <li class="footer-list">ホストの責任</li>
+            <li class="footer-list">コミュニティセンター</li>
+            <li class="footer-list">体験を掲載</li>
+            <li class="footer-list">オープンホーム</li>
+            <li class="footer-list new">リソースセンター</li>
+          </ul>
+
+          <ul class="footer-ul3" id="footer-ul">
+            <li class="footer-list"><h1>サポート</h1></li>
+            <li class="footer-list">ヘルプ</li>
+            <li class="footer-list new">エリアサポート</li>
+          </ul>
+
+        </section>
+
+        <section id="footer-bottom">
+          <div id="footer-img">
+            <img src="svg-logo.svg">
+          </div>
+
+          <div id="footer-tag">
+            <a>Airbnb Global Services Limited<br>
+              観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+            <p class="copyright">© 2020 Airbnb, Inc. All rights reserved.利用規約 · プライバシー · サイトマップ</p>
+          </div>
+
+          <div id="footer-logo">
+            <span class="fab fa-facebook"></span>
+            <span class="fab fa-twitter"></span>
+            <span class="fab fa-instagram"></span>
+          </div>
+      </section>
+      </footer>
+
+    </div><!--containerの終わり-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

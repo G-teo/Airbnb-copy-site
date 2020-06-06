@@ -1,0 +1,143 @@
+@media screen and (max-width:1200px){
+  #header{
+    /* position: relative; */
+    height: 60px;
+  }
+  #header-nav{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 10%;
+    height: 60px;
+  }
+  #header-start-btn{
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    /* right: 0; */
+    width: 100px;
+    height: 50px;
+  }
+  #start-top{
+    height: 280px;
+    margin-top: 80px;
+    margin-bottom: 280px;
+    /* background-image: none; */
+    background-image: url(image/start-image.jpg);
+    background-size: cover;
+  }
+  #start-box{
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    /* left: 8%; */
+    transform: translateY(0);
+    background-color: transparent;
+  }
+  #start-box-title{
+    color: white;
+    /* height: 100%; */
+  }
+  #start-box-contents{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  #start-box-para{
+    padding-bottom: 0px;
+  }
+  .main-section h1{
+    font-size: 40px;
+  }
+  .content .strong{
+    font-size: 32px!important;
+    font-weight: bold!important;
+  }
+  .detail-content{
+    width: 80%;
+  }
+  .detail-explain{
+    border: 1px solid #eee;
+  }
+  .detail-more{
+    display: none;
+  }
+  #setup-start,#safety-start{
+    margin: 50px 0px 0px 20px;
+    margin: 130px auto;
+    margin-bottom: 60px;
+  }
+  #setup-start-top,#safety-start-top{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #setup-start-top h1, #safety-start-top h1{
+    font-size: 38px;
+  }
+  #setup-start-btn,#safety-start-btn{
+    margin-bottom: 40px;
+  }
+  .setup-start-image, .safety-start-image{
+    width: 100%;
+  }
+  .setup-start-image img, .safety-start-image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .main-section .contents {
+    margin: 80px 0px 60px 0px;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  #start-top{
+    height: 250px;
+  }
+  #start-box{
+    position: absolute;
+    top: 55%;
+  }
+  #start-box-title h1{
+   font-size: 34px;
+   font-weight: bold;
+  }
+  #start-box-contents{
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+  }
+  .main-section-title h1{
+    font-size: 36px;
+  }
+  .col-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .detail-image{
+    width: 30%;
+    /* flex: 0 0 30%!important; */
+  }
+  #end{
+    height: 300px;
+  }
+  #end-box{
+    /* width: 80%; */
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+}
+  #end-title h1{
+    font-size: 36px;
+  }
+  #footer-top{
+    display: none;
+  }
+  #footer-logo{
+    display: none;
+  }
+}

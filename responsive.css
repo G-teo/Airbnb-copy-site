@@ -23,7 +23,7 @@
     margin-top: 80px;
     margin-bottom: 280px;
     /* background-image: none; */
-    background-image: url(image/start-image.jpg);
+    background-image: url(start-image.jpg);
     background-size: cover;
   }
   #start-box{
@@ -83,7 +83,7 @@
     width: 100%;
   }
   .setup-start-image img, .safety-start-image img{
-    width: 100%;
+    width: 100%; 
     height: 400px;
     object-fit: cover;
   }
